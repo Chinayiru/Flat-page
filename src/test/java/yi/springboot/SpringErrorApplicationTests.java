@@ -20,6 +20,7 @@ class SpringErrorApplicationTests {
         user.setPassword("213123");
         int insert = userMapper.insert(user);
         System.out.println(insert);
+
     }
 
 }
